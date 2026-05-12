@@ -1,120 +1,93 @@
-# FL Industrial Predictive Maintenance
+# 🔧 Industrial Predictive Maintenance using Federated Learning
 
-A Federated Learning-based predictive maintenance system for industrial equipment using the NASA Turbofan Engine Degradation Simulation Dataset.
-
----
-
-## Project Overview
-
-This project implements a Federated Learning (FL) framework for predictive maintenance in industrial environments.
-
-The goal is to predict equipment degradation and potential failures using distributed machine learning without sharing raw sensor data between clients.
-
-The project uses the NASA CMAPSS turbofan engine dataset and simulates multiple FL clients for decentralized training.
+An AI-powered industrial predictive maintenance dashboard built with Federated Learning concepts, Streamlit, and Python.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Federated Learning simulation
-- Industrial predictive maintenance
-- Distributed client training
-- Global model aggregation (FedAvg)
-- Data preprocessing and normalization
-- Model evaluation metrics
-- PyTorch-based neural network
+- 📊 Industrial AI Dashboard
+- 🤖 Predictive Maintenance Simulation
+- 🧠 Federated Learning Architecture
+- 📂 CSV Upload Support
+- 📈 Sensor Data Visualization
+- 🌐 Online Deployment with Streamlit
+- 🔗 GitHub Integration
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
-- PyTorch
+- Streamlit
 - NumPy
 - Pandas
-- Scikit-learn
-- Matplotlib
+- PyTorch (training phase)
+- Git & GitHub
 
 ---
 
-## Dataset
+## 📂 Project Structure
 
-NASA Turbofan Engine Degradation Simulation Dataset (CMAPSS)
-
-Dataset used:
-- FD001 subset
-
----
-
-## Project Structure
-
+```bash
 FL_Industrial_Project/
-
-data/
-train_FD001.txt
-
-notebooks/
-فناوری.ipynb
-
-src/
-preprocessing.py
-model.py
-train.py
-federated.py
-evaluation.py
-
-requirements.txt
-README.md
+│
+├── app.py
+├── model.pth
+├── README.md
+├── requirements.txt
+│
+├── data/
+│
+├── notebooks/
+│
+└── src/
+```
 
 ---
 
-## Federated Learning Workflow
+## ▶️ Run Locally
 
-1. Data preprocessing
-2. Client data partitioning
-3. Local client training
-4. Federated averaging (FedAvg)
-5. Global model aggregation
-6. Evaluation and prediction
-
----
-
-## Model Performance
-
-Current experimental results:
-
-- Accuracy: 96%
-- Precision: 85%
-- Recall: 91%
-- F1 Score: 88%
-
----
-
-## Installation
-
+```bash
 pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
-## Run Project
+## 🌐 Live Demo
 
-python train.py
+Streamlit Cloud Deployment:
 
----
-
-## Future Improvements
-
-- Real-time industrial dashboard
-- Flower framework integration
-- Edge-device deployment
-- Real federated communication
-- Streamlit visualization dashboard
+[Open Live App](https://fl-industrial-predictive-maintenance-eaeimhh4ly33bonocel8sj.streamlit.app)
 
 ---
 
-## Author
+## 📈 Dashboard Preview
+
+Features include:
+
+- Machine health monitoring
+- Failure risk analysis
+- Interactive sensor controls
+- CSV upload and visualization
+- Industrial analytics dashboard
+
+---
+
+## 🎯 Future Improvements
+
+- Real PyTorch model deployment
+- Advanced FL communication rounds
+- Live IoT sensor integration
+- Database support
+- Docker deployment
+
+---
+
+## 👨‍💻 Author
 
 Mahdi Gojazade
 
-Computer Engineering Student
-Federated Learning Researcher
+Computer Engineering Student  
+Interested in Artificial Intelligence & Federated Learning
