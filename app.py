@@ -50,7 +50,8 @@ with col2:
         label="Risk Score",
         value=f"{int(risk_score)}%"
     )
-    # -----------------------------
+
+# -----------------------------
 # CSV Upload
 # -----------------------------
 st.subheader("📂 Upload Sensor Data")
@@ -68,9 +69,10 @@ if uploaded_file is not None:
 
     st.write("Uploaded Data:")
     st.dataframe(df.head())
+
     st.subheader("📈 Sensor Data Visualization")
 
-st.line_chart(df)
+    st.line_chart(df)
 
     st.success("✅ CSV Loaded Successfully")
 
