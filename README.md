@@ -64,6 +64,7 @@ Streamlit Cloud Deployment:
 ---
 
 ## 📈 Dashboard Preview
+![Dashboard Preview](dashboard.png)
 
 Features include:
 
